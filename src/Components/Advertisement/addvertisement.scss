@@ -1,0 +1,75 @@
+#addvertise{
+    // height: 80vh;
+    .addvertise-container{
+        // background-image: #000 url('./Images/Ellipse 12.png')no-repeat fixed center;
+        margin-right: 132px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // background: #fff;
+        // opacity: 0.1;
+        gap: 80px;
+        .addvertise-left{
+            .addvertise-img{
+                position: relative; 
+                left: 203px; 
+            }
+        }
+        .addvertise-right{
+            h1{
+                color:  #0D2114;
+                width: 474px;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+            p{
+                color:  #0D2114;
+                width: 494px;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+            .addvertise-para{
+                color:  #0D2114;
+                font-family: Ubuntu;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px){
+    #addvertise{
+        .addvertise-container{
+            margin-top: 4rem;
+            display: block;
+            .addvertise-left{
+display: none;
+            }
+            .addvertise-right{
+                padding: 10px;
+                h1{
+                    width: fit-content;
+                    font-size: 24px;
+                }
+                p{
+font-size: 15px;
+width: fit-content;
+                }
+                .addvertise-para{
+
+                }
+                img{
+                    width: 338px;
+                }
+            }
+        }
+    }
+}

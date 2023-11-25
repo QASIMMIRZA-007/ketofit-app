@@ -3,6 +3,8 @@
     padding: 2rem;
     display: flex;
     margin-top: 5rem;
+    justify-content: center;
+    align-items: center;
     // margin-left: 8.5rem;
     gap: 40px;
     .left-container {
@@ -13,7 +15,7 @@
     }
     .right-container {
       width: 516px;
-      margin-top: 6rem;
+      // margin-top: 6rem;
       h1 {
         // width: 540px;
         color: #0d2114;
@@ -24,7 +26,7 @@
       }
       p {
         color: #0d2114;
-        font-size: 12px;
+        font-size: 16px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -55,13 +57,14 @@
       p {
         color: #0d2114;
         width: 332px;
-        font-size: 12px;
+        font-size: 14px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
       }
     }
     .arrowiconcon {
+      margin-bottom: 23px;
       .arrowicon {
         display: flex;
         justify-content: center;
@@ -98,7 +101,7 @@
       p {
         color: #0d2114;
         text-align: center;
-        font-size: 12px;
+        font-size: 15px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -118,7 +121,7 @@
           align-items: center;
           h1 {
             color: #0d2114;
-            font-size: 32px;
+            font-size: 34px;
             font-style: normal;
             font-weight: 700;
             line-height: normal;
@@ -127,8 +130,7 @@
         p {
           width: 526px;
           color: #0d2114;
-          font-family: Ubuntu;
-          font-size: 12px;
+          font-size: 14px;
           font-style: normal;
           font-weight: 400;
           line-height: normal;
@@ -164,10 +166,12 @@
         p {
           color: #0d2114;
           text-align: center;
-          font-size: 12px;
+          font-size: 16px;
           font-style: normal;
           font-weight: 400;
           line-height: normal;
+          width: 50%;
+          margin-inline: auto;
         }
       }
       .quizflex {
@@ -213,7 +217,7 @@
             }
             p {
               color: #0d2114;
-              font-size: 12px;
+              font-size: 14px;
               font-style: normal;
               font-weight: 400;
               line-height: normal;
@@ -260,10 +264,13 @@
       .right-container {
         // width: 337px;
         margin-top: 1rem;
-        width: 44%;
+        // width: 44%;
   
         h1 {
           font-size: 15px;
+        }
+        p{
+          font-size: 13px;
         }
       }
     }
@@ -284,7 +291,7 @@
       .right-container {
         // width: 337px;
         margin-top: 1rem;
-        width: 44%;
+        // width: 44%;
   
         h1 {
           font-size: 15px;
@@ -522,7 +529,7 @@
       .right-container {
         width: 337px;
         width: fit-content;
-        width: 44%;
+        // width: 44%;
         margin-top: 1rem;
   
         h1 {

@@ -50,11 +50,14 @@
         .addvertise-container{
             margin-top: 4rem;
             display: block;
+            margin-right: 0;
             .addvertise-left{
 display: none;
             }
             .addvertise-right{
-                padding: 10px;
+                width: 80%;
+                margin-inline: auto;
+            
                 h1{
                     width: fit-content;
                     font-size: 24px;
@@ -64,10 +67,45 @@ font-size: 15px;
 width: fit-content;
                 }
                 .addvertise-para{
-
+width: fit-content;
                 }
                 img{
-                    width: 338px;
+                    width: 90%;
+                   margin-inline: auto;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px){
+    #addvertise{
+        .addvertise-container{
+            margin-top: 4rem;
+            display: block;
+            margin-right: 0;
+            
+            .addvertise-left{
+display: none;
+            }
+            .addvertise-right{
+                width: 80%;
+                margin-inline: auto;
+            
+                h1{
+                    width: fit-content;
+                    font-size: 24px;
+                }
+                p{
+font-size: 15px;
+width: fit-content;
+                }
+                .addvertise-para{
+width: fit-content;
+                }
+                img{
+                   width: 90%;
+                   margin-inline: auto;
                 }
             }
         }

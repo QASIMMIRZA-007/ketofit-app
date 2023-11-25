@@ -3,6 +3,7 @@
 
   .footer {
     padding: 26px;
+    margin-top: 7rem;
    
     .footer-container {
       display: flex;
@@ -158,17 +159,29 @@ transition: all 0.3s ease-in;
   #footer{
    
     .footer{
-      // margin-top: 20rem;
+      margin-top: 2rem;
       .footer-container{
         flex-direction: column;
         flex-wrap: wrap;
         gap: 40px;
       .footer-left{
         .footer-flex{
+          .box{
+            width: 60%;
+            margin-inline: auto;
+            gap: 15px;
+            padding: 10px;
+            h2{
+              margin:0;
+            }
+            p{
+              margin: 0;
+            }
+          }
 
           // flex-direction: column;
           flex-wrap: wrap;
-          gap: 5px;
+          gap: 15px;
           p{
             width: 77vw;
           }
@@ -201,10 +214,11 @@ transition: all 0.3s ease-in;
         flex-wrap: wrap;
         gap: 40px;
       .footer-left{
+        align-items: center;
         .footer-flex{
           // flex-direction: column;
           flex-wrap: wrap;
-          gap: 5px;
+          gap: 15px;
         }
       }
       .footer-right{

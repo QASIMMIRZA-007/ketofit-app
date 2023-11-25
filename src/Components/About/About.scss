@@ -66,10 +66,14 @@
         flex-direction: column;
     padding: 8px 16px;
         .aboutleft{
-            h1{}
+          h1{
+            text-align: center;
+          }
             p{
-                font-size: 15px;
-                width: fit-content;
+              font-size: 13px;
+              // width: fit-content;
+              width: 80%;
+              margin-inline: auto;
             }
 
         }
@@ -105,10 +109,15 @@
       flex-direction: column;
   padding: 8px 16px;
       .aboutleft{
+        h1{
+          text-align: center;
+        }
         
           p{
-              font-size: 15px;
-              width: fit-content;
+            font-size: 13px;
+            // width: fit-content;
+            width: 80%;
+            margin-inline: auto;
           }
 
       }

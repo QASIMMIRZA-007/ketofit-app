@@ -10,10 +10,16 @@ html,body{
     // background: #000;
     font-family: 'Ubuntu', sans-serif;
 }
+.app{
+    width: 100%;
+    max-width: 1440px;
+    margin-inline: auto;
+}
 .home{
     background: #F6F9F7;
     // height: 110vh;
     width: 100%;
+    max-width: 100%;
     
 
 }

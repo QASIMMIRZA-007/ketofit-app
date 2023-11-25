@@ -1,5 +1,5 @@
 import React from 'react'
-import './Addvertisement.scss'
+import './addvertisement.scss'
 function Addvertisement() {
   return (
     <>

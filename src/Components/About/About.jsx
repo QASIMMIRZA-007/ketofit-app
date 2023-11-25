@@ -5,7 +5,7 @@ import Abouticon3 from "../../assets/projectdata/Abouticon3";
 import Abouticon4 from "../../assets/projectdata/Abouticon4";
 import Abouticon5 from "../../assets/projectdata/Abouticon5";
 import Abouticon6 from "../../assets/projectdata/Abouticon6";
-import "./about.scss";
+import "./About.scss";
 function About() {
   return (
     <>

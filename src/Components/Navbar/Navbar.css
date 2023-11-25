@@ -2,7 +2,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 10px 45px 0px 45px;
+
+
 }
 
 .menu-btn {
@@ -50,6 +52,7 @@
 .menu-btn {
   cursor: pointer;
   display: none;
+  font-size: 30px;
 }
 
 .menu-btn-burger {
@@ -64,6 +67,9 @@
   .menu-btn {
     display: block;
   }
+  .navbar{
+    height: 10vh;
+  }
   ul{
 	padding-left: 0;
   }
@@ -73,6 +79,7 @@
 
   .btn{
 	width: 40%;
+  margin-top: 12px;
   }
 
   .nav-list {

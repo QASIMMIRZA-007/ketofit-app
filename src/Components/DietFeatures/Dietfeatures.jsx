@@ -20,7 +20,7 @@ function Dietfeatures() {
             </div>
           </div>
           <div className="right-container">
-            <h1>The <span>Diet</span>  That Works When Nothing Else Does!</h1>
+            <h1>The <span className="green">Diet</span>  That Works When Nothing Else Does!</h1>
             <p>
               For years we have been told that diets do not work. That fat is
               bad, and carbs are good. That lack of success is our own fault. We

@@ -1,5 +1,5 @@
 import React from 'react'
-import './ketotaste.scss'
+import './Ketotaste.scss'
 function Ketotaste() {
     const data= [
         {

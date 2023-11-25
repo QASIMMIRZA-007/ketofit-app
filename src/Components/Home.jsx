@@ -14,10 +14,10 @@ function Home() {
     <>
     <div className='home'>
      <Navbar/> 
-    <Homepage/> 
+     <Homepage/> 
     <Dietfeatures/>
     <About/>
-    <Addvertisement/>
+   <Addvertisement/>
     <Product/>
     <Ketotaste/>
     <Review/>

@@ -115,6 +115,8 @@ column-gap: 13px;
   /* Media query for smaller screens */
   @media screen and (max-width: 768px){ 
     .homepage{
+        margin: 27px 0 0 0;
+
         .right {
             .rightimages{
                 .leftside{
@@ -266,6 +268,7 @@ right: 0;
             .leftside{
 
 column-gap: 10px;
+justify-content: center;
 // .thirdimg{
 //     display: none;
 // }
@@ -276,7 +279,7 @@ column-gap: 10px;
                 flex-direction: row;
                 justify-content: flex-start;
                 gap: 10px;
-               
+               justify-content: center;
             }
             }
             

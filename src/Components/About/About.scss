@@ -98,3 +98,42 @@
     }
 }
 }
+
+@media screen and (max-width: 992px){
+  #about{
+  .aboutcontainer{
+      flex-direction: column;
+  padding: 8px 16px;
+      .aboutleft{
+        
+          p{
+              font-size: 15px;
+              width: fit-content;
+          }
+
+      }
+      .aboutright{
+          display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+          .aboutimg{
+              position: relative;
+              left: 0;
+              bottom: 0;
+              width: 150px;
+          }
+          .images-container{
+              img{
+                  width: 150px;
+              }
+              .aboutimg1{
+                  display: none;
+              }
+           
+          }
+      }
+  }
+}
+}

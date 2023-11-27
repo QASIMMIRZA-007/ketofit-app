@@ -4,7 +4,7 @@
 
   .footer {
     padding: 26px;
-    margin-top: 7rem;
+    margin-top: 5rem;
    
     .footer-container {
       display: flex;
@@ -191,6 +191,7 @@ transition: all 0.3s ease-in;
       .footer-right{
         gap: 13px;
     // padding: 4px 15px;
+    align-items: center;
 
         .input{
           flex-direction: column;
@@ -225,6 +226,7 @@ transition: all 0.3s ease-in;
       .footer-right{
         gap: 13px;
     padding: 4px 15px;
+    align-items: center;
 
         .input{
           // flex-direction: column;

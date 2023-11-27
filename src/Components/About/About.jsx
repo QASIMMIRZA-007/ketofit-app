@@ -18,8 +18,8 @@ function About() {
               program – has the power to change your body in ways no other diet
               can. It puts your body into ketosis – the health-promoting state
               where you burn fat for energy.
-              <br />
-              <br />
+            
+             
               Combined with a personalised, guided approach, keto will turn your
               body into a fat-burning machine, giving everything you need for a
               healthy future.

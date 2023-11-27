@@ -9,6 +9,10 @@ html,body{
     height: 100%;
     width: 100%;
     // background: #000;
+    user-select: none;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
     font-family: 'Ubuntu', sans-serif;
 }
 .app{
@@ -75,6 +79,7 @@ body {
 .ubantu{
     font-family: 'Ubuntu', sans-serif;
 }
+
 @media (max-width: 661px) {
    
     .INNERGREENCIRCLE{

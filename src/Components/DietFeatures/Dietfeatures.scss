@@ -324,12 +324,15 @@
     }
     .container-fulid {
       .smartwork {
+        h1{
+font-size: 28px;
+        }
         p {
           // width: 389px;
-          width: fit-content;
-          width: 80%;
+          // width: fit-content;
+          width: 86%;
           margin-inline: auto;
-          // text-align: justify;
+          text-align: left;
         }
       }
       .block {
@@ -437,8 +440,8 @@
         p {
           // width: 389px;
           // text-align: justify;
-          width: fit-content;
-          width: 80%;
+          // width: fit-content;
+          width: 86%;
           margin-inline: auto;
         }
       }
@@ -451,7 +454,7 @@
           padding: 0 10px;
           p {
             width: fit-content;
-            // text-align: justify;
+            text-align: left;
             padding: 5px 8px;
           }
           .blockpoints {

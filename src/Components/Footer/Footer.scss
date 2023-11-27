@@ -168,9 +168,10 @@ transition: all 0.3s ease-in;
       .footer-left{
         .footer-flex{
           .box{
-            width: 60%;
+          
+            width: 47%;
             margin-inline: auto;
-            gap: 15px;
+            gap: 13px;
             padding: 10px;
             h2{
               margin:0;
@@ -184,14 +185,14 @@ transition: all 0.3s ease-in;
           flex-wrap: wrap;
           gap: 15px;
           p{
-            width: 77vw;
+            // width: 77vw;
           }
         }
       }
       .footer-right{
         gap: 13px;
     // padding: 4px 15px;
-    align-items: center;
+    // align-items: center;
 
         .input{
           flex-direction: column;
@@ -216,7 +217,7 @@ transition: all 0.3s ease-in;
         flex-wrap: wrap;
         gap: 40px;
       .footer-left{
-        align-items: center;
+        // align-items: center;
         .footer-flex{
           // flex-direction: column;
           flex-wrap: wrap;
@@ -225,8 +226,8 @@ transition: all 0.3s ease-in;
       }
       .footer-right{
         gap: 13px;
-    padding: 4px 15px;
-    align-items: center;
+    // padding: 4px 15px;
+    // align-items: center;
 
         .input{
           // flex-direction: column;

@@ -12,7 +12,7 @@ function About() {
       <section id="about">
         <div className="aboutcontainer">
           <div className="aboutleft">
-            <h1>About the Keto Diet</h1>
+            <h1>About the <span className="greenColor">keto</span> Diet</h1>
             <p>
               The ketogenic diet – a revolutionary low-carb, high-fat eating
               program – has the power to change your body in ways no other diet

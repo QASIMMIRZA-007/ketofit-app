@@ -65,7 +65,13 @@ body {
 .icon{
     display: none;  
 }
-
+.greenColor{
+    color: #50c878;
+  }
+.active{
+    background-color: #50c878;
+    color: red;
+}
 @media (max-width: 661px) {
    
     .INNERGREENCIRCLE{

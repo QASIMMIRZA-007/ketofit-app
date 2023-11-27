@@ -23,6 +23,7 @@
     .buttons{
         .btn1{
             background: #E4EDE7;
+            color: #50C878;
             // border: 1px solid #50C878;
             &:hover{
                 border: 1px solid #50C878;
@@ -46,6 +47,7 @@ border-radius: 15px;
 border: none;
 margin: 5px;
 transition: all 0.4s ease-in;
+
 }
     }
 

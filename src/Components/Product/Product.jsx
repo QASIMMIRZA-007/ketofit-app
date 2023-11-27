@@ -11,7 +11,7 @@ function Product() {
     <>
       <section id='product'>
       <div className='product-head'>
-                <h1>The last diet app you’ll ever need!</h1>
+                <h1>The last <span className="greenColor">diet</span> app you’ll ever need!</h1>
             </div>
         <div className='product-container'>
             <div className='product-left'>

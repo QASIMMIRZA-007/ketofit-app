@@ -2,7 +2,7 @@
   .container {
     padding: 2rem;
     display: flex;
-    margin-top: 5rem;
+    margin-top: 1.0rem;
     justify-content: center;
     align-items: center;
     // margin-left: 8.5rem;
@@ -23,6 +23,7 @@
         font-style: normal;
         font-weight: 700;
         line-height: normal;
+       
       }
       p {
         color: #0d2114;
@@ -34,7 +35,7 @@
     }
   }
   .seccontainer {
-    margin-top: 4rem;
+    margin-top: 1.8rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -84,7 +85,7 @@
   }
   .container-fulid {
     .smartwork {
-      margin-top: 2rem;
+      margin-top: 1.8rem;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -160,7 +161,7 @@
           font-size: 32px;
           font-style: normal;
           font-weight: 700;
-          margin-top: 3.8rem;
+          margin-top: 2.3rem;
         }
 
         p {

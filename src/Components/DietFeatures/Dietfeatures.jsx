@@ -20,8 +20,8 @@ function Dietfeatures() {
             </div>
           </div>
           <div className="right-container">
-            <h1>The <span className="green">Diet</span>  That Works When Nothing Else Does!</h1>
-            <p>
+            <h1>The <span className="greenColor">Diet</span>  That Works When Nothing Else Does!</h1>
+            <p>   
               For years we have been told that diets do not work. That fat is
               bad, and carbs are good. That lack of success is our own fault. We
               are here to prove that’s not true. We are going to show you the
@@ -54,7 +54,7 @@ function Dietfeatures() {
         </div>
         <div className="container-fulid">
           <div className="smartwork">
-            <h1>Start keto the smart way!</h1>
+            <h1>Start <span className="greenColor">keto</span> the smart way!</h1>
             <p>
               It's hard work to become your healthiest self, but it's much
               easier when you have the right tools and support. Leave the
@@ -98,7 +98,7 @@ function Dietfeatures() {
           </div>
           <div className="quizblock">
             <div className="quizblockhead">
-              <h1>Designed for keto beginners</h1>
+              <h1>Designed for  <span className="greenColor">keto</span> beginners</h1>
               <p>
                 Where others feel lost, we show you the way. Here you'll find
                 everything you need to get started with keto. Finally! Keto made

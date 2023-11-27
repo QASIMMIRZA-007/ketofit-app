@@ -46,10 +46,16 @@ font-weight: 500;
 line-height: normal;
 margin-bottom: 5.7rem;
             }
-            .circle{
-                position: relative;
-                top: 28px;
+            .arrowcircleicons{
+                display: flex;
+                justify-content: center;
+                // align-items: center;
+                .circle{
+                    position: relative;
+                    top: 28px;
+                }
             }
+            
         }
     }
 
@@ -93,12 +99,13 @@ margin-top: 10px;
                 }
                 .arrowcircleicons{
                     display: flex;
-                    justify-content: center;
-                    align-items: center;
+                    // justify-content: center;
+                    // align-items: center;
                     .circle{
                         position: relative;
                         top: 2px;
                         left: 34px;
+                        
                     }
                     .greencirlcle{
     

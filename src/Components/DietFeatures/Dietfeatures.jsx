@@ -113,7 +113,7 @@ function Dietfeatures() {
               </div>
               <div className="doflex">
                 <div className="quizblockcenter">
-                  <h2>1</h2>
+                  <h2 className="ubantu">1</h2>
                   <span className="quizicon">
                     {" "}
                     <Smallcircle />

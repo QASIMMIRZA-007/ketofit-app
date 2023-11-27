@@ -25,20 +25,24 @@
 }
 .btn1 {
   background: #e4ede7;
-  border: 1px solid #50c878;
+  /* border: 1px solid #50c878; */
+  font-weight: 500;
+  color: #50c878;
 }
 .btn1:hover {
   border: 1px solid #50c878;
+  color: #50c878;
 }
 
 .btn2 {
   background-color: #50c878;
   color: #fff;
 }
-.btn:hover {
+.btn2:hover {
   /* background: #E4EDE7; */
   border: 1px solid #50c878;
-  color: #000;
+  color: #50c878;
+
 }
 .nav-flex {
   display: flex;

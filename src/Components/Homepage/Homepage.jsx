@@ -1,16 +1,19 @@
   import React from "react";
 import "./Homepage.scss";
 import Ketofit from "../../assets/projectdata/Ketofit";
+import Ketofitbadge from "../../assets/projectdata/Ketofitbadge";
 
 function Homepage() {
   return (
     <>
-    {/* <span className="keto">keto</span> */}
       <section id="homepage">
         <div className="homepage">
           <div className="left">
+    {/* // <Ketofit/>   */}
+
+     {/* <span className="keto">keto</span>  */}
             <h1>
-              Smarter way to <Ketofit/> {" "}
+              Smarter   way to <Ketofitbadge/>    {" "}
             </h1>
             <p>
               A ketogenic diet app designed to make keto easy. From the start.

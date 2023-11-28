@@ -29,7 +29,7 @@ function Footer() {
               </div>
              
               <div className="footer-right">
-                <p>Keep in touch</p>
+                <p className="right-para">Keep in touch</p>
                 <div className="footer-icons">
                     <Footericon/>
                     <Footericon2/>
@@ -39,13 +39,13 @@ function Footer() {
                     <input type="email" name="email"  placeholder="Enter email address"/>
                     <button>Get updates</button>
                 </div>
-                <p>By entering your email, you agree to our Terms of Use and Privacy Policy.</p>
+                <p className="footer-right-para">By entering your email, you agree to our Terms of Use and Privacy Policy.</p>
                 <div className="footer-right-flex">
                   <div>
-                    <p className="footer-para">Help</p>
-                    <p>Privacy Policy</p>
-                    <p>
-                     Terms & Conditions
+                    <p className="footer-para ubantu">Help</p>
+                    <p><b>Privacy Policy</b></p>
+                    <p> <b> Terms & Conditions</b>
+                    
                     </p></div>
                     <div className="footer-images-flex">
                         <img src="./Images/footer1.png"/>

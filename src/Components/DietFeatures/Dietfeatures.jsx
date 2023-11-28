@@ -7,6 +7,7 @@ import Block2 from "../../assets/projectdata/Block2";
 import Checkboxicon from "../../assets/projectdata/Checkboxicon";
 import Smallcircle from "../../assets/projectdata/Smallcircle";
 import Greencircle from "../../assets/projectdata/Greencircle";
+import Water from "../../assets/projectdata/Water";
 
 function Dietfeatures() {
   return (
@@ -68,6 +69,7 @@ function Dietfeatures() {
                 <Bolckicon1 />
                 <h2>Personalised</h2>
                 <Block2 />
+             
               </div>
               <p>
                 Other diets do not work because they are not built with people’s
@@ -92,6 +94,7 @@ function Dietfeatures() {
 
             <div className="blockright">
               <div className="blockimage">
+                <Water className="water"/>
                 <img src="./Images/block.png" />
               </div>
             </div>

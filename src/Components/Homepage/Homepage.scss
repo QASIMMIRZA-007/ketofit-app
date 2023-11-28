@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   // flex-wrap: wrap;
-  padding: 10px 70px 0px 70px;
+  padding: 20px 70px 0px 70px;
   gap: 10px;
 
   .left {
@@ -11,13 +11,14 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 384px;
+    width: 356px;
     h1 {
       color: #0d2114;
       font-size: 60px;
       font-style: normal;
       font-weight: 700;
       line-height: normal;
+     
 
       .keto {
         width: 140px;
@@ -83,13 +84,13 @@
           position: relative;
           border: 3px solid #fff;
           border-radius: 50%;
-          transform: translateX(-24px);
+          transform: translateX(-22px);
         }
         .img2 {
           position: relative;
           border: 3px solid #fff;
           border-radius: 50%;
-          transform: translateX(-55px);
+          transform: translateX(-49px);
         }
       }
       .homepara {

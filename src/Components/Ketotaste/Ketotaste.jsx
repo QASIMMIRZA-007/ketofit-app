@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Ketotaste.scss";
 
 function Ketotaste() {
-  const [selectedCategory, setSelectedCategory] = useState("dinner");
+  const [selectedCategory, setSelectedCategory] = useState("breakfast");
 
   const data = {
     breakfast: [
@@ -101,11 +101,12 @@ function Ketotaste() {
 
   const handleCategoryClick = (category) => {
     setSelectedCategory(category);
+    console.log(category)
   };
 
   return (
     <>
-      <section id="ketotaste">
+   <section id="ketotaste">
         <div className="keto-container">
           <div className="keto-header">
             <h1>
@@ -114,7 +115,7 @@ function Ketotaste() {
             <p>Lose weight by eating the foods you love.</p>
             <div className="rectangle">
               <button
-                className={selectedCategory === "breakfast" ? "active" : ""}
+                className={selectedCategory == "breakfast" ? "active" : ""}
                 onClick={() => handleCategoryClick("breakfast")}
               >
                 Breakfast
@@ -154,7 +155,8 @@ function Ketotaste() {
             })}
           </div>
         </div>
-      </section>
+      </section> 
+     
     </>
   );
 }

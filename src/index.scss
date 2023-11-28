@@ -79,6 +79,9 @@ body::-webkit-scrollbar {
   position: relative;
   top: 115px;
 }
+html {
+    scroll-behavior: smooth;
+  }
 
 @media (max-width: 661px) {
   .INNERGREENCIRCLE {

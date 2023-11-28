@@ -4,7 +4,7 @@
   background: #EDF1EE;
   // height: 128vh;
   padding-bottom: 80px;
-  margin-top: 2rem;
+  margin-top: 3.6rem;
 
   .product-head {
     h1 {
@@ -62,13 +62,15 @@
     #product{
         .product-head{
             h1{
-                font-size: 26px;
+                font-size: 23px;
             }
         }
         .product-container{
             flex-direction: column;
             align-items: center;
             gap: 40px;
+            padding: 0 12px;
+
         
         .product-right{
             gap: 8px;

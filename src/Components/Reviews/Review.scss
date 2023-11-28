@@ -10,14 +10,14 @@
     // margin: 30px 0;
     margin-top: 57px;
     gap: 30px;
-    .review-left {
-      // .images-container{
-      //     display: flex;
-      //     justify-content: center;
-      //     align-items: center;
-      //     gap: 20px;
-      // }
-    }
+    // .review-left {
+    //   // .images-container{
+    //   //     display: flex;
+    //   //     justify-content: center;
+    //   //     align-items: center;
+    //   //     gap: 20px;
+    //   // }
+    // }
     .review-right {
       h1 {
         color: #0d2114;
@@ -76,6 +76,8 @@
       }
       .review-right {
         margin-top: 21px;
+        padding: 0px 13px;
+
         h1 {
           text-align: center;
           margin-top: 10px;
@@ -97,8 +99,7 @@
             top: 2px;
             left: 34px;
           }
-          .greencirlcle {
-          }
+          
         }
       }
     }
@@ -123,13 +124,15 @@
       }
       .review-right {
         margin-top: 21px;
+        padding: 0px 13px;
+
         h1 {
           text-align: center;
           margin-top: 10px;
         }
         p {
           // padding: 0 33px;
-        //   text-align: center;
+          //   text-align: center;
           width: fit-content;
           // margin-bottom: 2rem;
           width: 88%;
@@ -145,8 +148,8 @@
             top: 2px;
             left: 34px;
           }
-          .greencirlcle {
-          }
+          // .greencirlcle {
+          // }
         }
       }
     }

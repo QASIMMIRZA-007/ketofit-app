@@ -1,7 +1,8 @@
 #ketotaste {
   .keto-container {
+    margin-top: 5rem;
     .keto-header {
-      margin: 3rem 0;
+      margin: 2.7rem 0;
       h1 {
         color: #0d2114;
         text-align: center;
@@ -28,7 +29,7 @@
         align-items: center;
         gap: 20px;
         border-radius: 30px;
-        border: 1px solid #E6F5EB;
+        border: 1px solid #e6f5eb;
 
         justify-content: center;
         button {
@@ -42,7 +43,7 @@
           font-weight: 700;
           line-height: normal;
           transition: all 0.3s ease;
-          &:hover{
+          &:hover {
             background: #50c878;
             color: #fff;
             padding: 3px 3px;
@@ -61,8 +62,8 @@
         height: 321px;
         border-radius: 20px;
         padding: 25px;
-      
-        background: #EDF1EE;
+
+        background: #edf1ee;
         img {
           margin-top: 20px;
           height: 150px;

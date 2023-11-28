@@ -138,8 +138,12 @@
     .right {
       .rightimages {
         .leftside {
-       img {
-            // width: 150px;
+       .first-img, .second-img {
+        margin-inline: auto;
+        width: 150px;
+        /* height: 90%; */
+        /* height: 100%; */
+        height: 468px;
           }
         }
         .rightside {

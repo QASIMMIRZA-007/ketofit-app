@@ -33,7 +33,7 @@ function Homepage() {
               <div className="leftside">
                 <img src="./Images/Rectangle9.png" className="first-img" />
 
-                <img src="./Images/Rectangle10.png" />
+                <img src="./Images/Rectangle10.png" className="second-img" />
                 <img src="./Images/Rectangle11.png" className="thirdimg" />
               </div>
               <div className="rightside">

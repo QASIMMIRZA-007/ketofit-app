@@ -1,6 +1,5 @@
 #footer {
-  background: #f0f7f2;
-  background: #E6F5EB;
+  background: #EDF1EE;
 
   .footer {
     padding: 26px;
@@ -171,8 +170,9 @@ transition: all 0.3s ease-in;
           
             width: 47%;
             margin-inline: auto;
-            gap: 13px;
-            padding: 10px;
+            gap: 11px;
+            /* padding: 10px; */
+            border-radius: 16px;
             h2{
               margin:0;
             }

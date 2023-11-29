@@ -46,6 +46,7 @@ import React, { useState, useEffect } from 'react';
 import './Navbar.css';
 import './Navbar.scss';
 import { FaBars } from 'react-icons/fa';
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -85,7 +86,8 @@ const Navbar = () => {
       <ul className={`nav-list ${isOpen ? 'open' : ''}`}>
         <div className='nav-flex'>
           <button className='btn1 btn'>
-            Login
+            <Link to="/LoginInterafce">  Login</Link>
+          
           </button>
           <button className='btn2 btn'>Start my journey</button>
         </div>

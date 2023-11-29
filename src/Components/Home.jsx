@@ -9,12 +9,14 @@ import Ketotaste from './Ketotaste/Ketotaste'
 import Review from './Reviews/Review'
 import Footer from './Footer/Footer'
 
+
 function Home() {
   return (
     <>
     <div className='home'>
+    
      <Navbar/> 
-     <Homepage/> 
+      <Homepage/> 
     <Dietfeatures/>
     <About/>
    <Addvertisement/>

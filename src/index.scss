@@ -82,6 +82,20 @@ body::-webkit-scrollbar {
 html {
     scroll-behavior: smooth;
   }
+  a{
+    text-decoration: none;
+     color: #50c878;;
+  }
+  .cursor-follower {
+    position: fixed;
+    // pointer-events: none; /* Ensure the cursor does not interfere with underlying elements */
+    font-size: 2rem;
+    transform: translate(-50%, -50%);
+    background-color:transparent;
+    color: #50c878;
+
+  }
+  
 
 @media (max-width: 661px) {
   .INNERGREENCIRCLE {
